@@ -1,0 +1,42 @@
+    .container{
+      display: flex;
+      width: 90%;
+      flex-direction: column;
+    }
+
+    .chart{
+      display: flex;
+      margin-top: 50px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        width: 100%;
+        background-color: #f1f1f1;
+        border-radius: 6px;
+        color: #000;
+      }
+      .title{
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center,
+      }
+
+      .filter{
+        display: flex;
+        align-items: center;
+      }
+      .label {
+        margin-right: 10px;
+      }
+      .select {
+        padding: 8px;
+        border: 0;
+        border-radius: 6px;
+      }

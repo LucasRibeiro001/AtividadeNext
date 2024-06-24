@@ -1,0 +1,114 @@
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1a1a1a;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .forgotPassword {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btnPrimary {
+    background-color: #003366;
+    color: #ffffff;
+  }
+  
+  .btnFacebook {
+    background-color: #3b5998;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btnGoogle {
+    background-color: #db4437;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btnIcon {
+    margin-right: 10px;
+  }
+  
+  .signup {
+    font-size: 14px;
+    color: #1a1a1a;
+  }
+  
+  .signupLink {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #dcdfe6;
+  }
+  
+  .divider::before {
+    margin-right: 10px;
+  }
+  
+  .divider::after {
+    margin-left: 10px;
+  }
+  
